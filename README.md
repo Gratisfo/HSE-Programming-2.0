@@ -4,9 +4,9 @@
 
 №| Описание          |Ссылка на работу  
  ------------- |:-------------| -----:
-**1** |Игра висилица     | [*Код*](https://github.com/Gratisfo/HSE-Programming-2.0/blob/master/HomeWork/HW1.py) 
-**2** |Краулер для газеты "Светлый путь"    |   
-**3** |Типологическая анкета об употреблении феминитивов |   
+**1** |Игра висилица     | [*Код*](https://github.com/Gratisfo/HSE-Programming-2.0/tree/master/HomeWork/HW1) 
+**2** |JSON   | [*Код*](https://github.com/Gratisfo/HSE-Programming-2.0/blob/master/HomeWork/HW2/HW2_JSON.ipynb)   
+   
 
 почта для связи: aniatta1999@gmail.com
 
