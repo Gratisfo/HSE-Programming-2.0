@@ -17,23 +17,19 @@ def create_DB(filename, filename_2):
   #файл с лематизированной статьей
    with open(filename_2, encoding='utf-8') as l: 
         lem_text = l.read()
-
         # подключаемся к базе данных
         conn = sqlite3.connect('Articles_Data.db')
-
         # создаем объект "курсор", которому будем передавать запросы
         c = conn.cursor()
-
         # создаем таблицу
         c.execute("CREATE TABLE IF NOT EXISTS article(title, link, text, lem_text)")
         # встваляем данные из статей
         c.execute('INSERT INTO article VALUES  (?, ?, ?, ?)', (title[0], link[0], text[0], lem_text))
         #для проверки БД
-        for i in c.execute("SELECT * FROM article"):
-            print(i)
+        #for i in c.execute("SELECT * FROM article"):
+            #print(i)
         # сохраняем изменения
         conn.commit()
-
         # отключаемся от БД
         conn.close()
         return (conn)
