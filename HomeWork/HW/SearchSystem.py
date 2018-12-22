@@ -74,8 +74,6 @@ def show_result():
         return render_template('result.html', word = word, result = texts)
 
 def main():
-
-
     comDB1 = create_DB('article_1.txt', 'article_1_lem.txt')
     comDB2 = create_DB('article_2.txt', 'article_2_lem.txt')
     comDB3 = create_DB('article_3.txt', 'article_3_lem.txt')
